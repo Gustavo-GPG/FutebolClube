@@ -13,3 +13,54 @@ No desenvolvimento, foi criada uma API utilizando TDD, integrada a um banco de d
 
 > **Este projeto foi desenvolvido utilizando a metodologia TDD**
 ---
+
+# 🖥️ Iniciando aplicação
+• Para copiar o repositório para uma pasta local, use o seguinte comando no terminal:
+
+```bash
+git@github.com:Gustavo-GPG/FutebolClube.git
+```
+
+Caso você não tenha o Git instalado, você pode instalá-lo usando os seguintes comandos, dependendo do seu sistema operacional:
+
+Debian/Ubuntu (Terminal Bash):
+```bash
+sudo apt-get install git
+```
+Windows (PowerShell):
+```bash
+winget install --id Git.Git -e --source winget
+```
+Ou você pode seguir a documentação do site [git](https://git-scm.com/downloads) para mais meios de instalação.
+
+• Navegue até a pasta criada no clone e abra o terminal
+```bash
+npm install
+```
+
+## ⚙️ Preparação do Banco de Dados
+
+Antes de iniciar a aplicação com o Docker Compose, é necessário configurar o banco de dados executando as migrações e seeders. Siga os passos abaixo:
+
+1. **Execute as Migrações**: As migrações criam a estrutura do banco de dados.
+   ```bash
+   npx sequelize db:migrate
+   ```
+1. **Execute os Seeders**: Os seeders populam o banco de dados com dados iniciais.
+   ```bash
+   npx sequelize db:seed:all
+   ```
+   ---
+
+• Para inicializar o container execute o comando
+```bash
+npm run compose:up
+```
+• Para vizualizar os logs do container execute o comando
+```bash
+docker-compose logs backend
+```
+• Para vizualiza a aplicação localmente abra o navegador e cole o endereço:
+localhost:3000
+---
+Este projeto foi guiado por requisitos pré-estabelecidos pela [Trybe](https://www.betrybe.com).
