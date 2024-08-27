@@ -60,7 +60,6 @@ npm run compose:up
 ```bash
 docker-compose logs backend
 ```
-• Para vizualiza a aplicação localmente abra o navegador e cole o endereço:
-localhost:3000
+Para vizualiza a aplicação localmente abra o navegador e cole o endereço: localhost:3000
 ---
 Este projeto foi guiado por requisitos pré-estabelecidos pela [Trybe](https://www.betrybe.com).
