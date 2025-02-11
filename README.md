@@ -11,12 +11,7 @@ permitindo que a tabela de classificação fosse exibida corretamente para os us
 
 #🚀 Tecnologias utilizadas
 ---
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
 ---
 <details>
   <summary>📊 Diagrama Relacional de Entidades</summary>
@@ -33,31 +28,31 @@ Para configurar e executar a aplicação corretamente, siga os passos abaixo:
 # 👥 Clonando o repositório
 
 Primeiro, copie o repositório para uma pasta local usando o seguinte comando no terminal:
-
+```
 git clone git@github.com:Gustavo-GPG/FutebolClube.git
-
+```
 Caso você não tenha o Git instalado, siga as instruções de instalação conforme o seu sistema operacional:
 
 Debian/Ubuntu (Terminal Bash):
-
+```
 sudo apt-get install git
-
+```
 Windows (PowerShell):
-
+```
 winget install --id Git.Git -e --source winget
-
+```
 Ou acesse a documentação oficial do Git para mais opções de instalação.
 
 # 📦 Instalando as dependências
 
 Acesse a pasta app dentro do projeto:
-
+```
 cd app
-
+```
 Instale as dependências principais do projeto:
-
+```
 npm install
-
+```
 Para instalar as dependências específicas de cada aplicação, utilize os seguintes scripts:
 
 Front-end:
