@@ -101,6 +101,10 @@ Com isso, você pode acompanhar o status da aplicação e identificar possíveis
 
 Para iniciar a aplicação navegue para a pasta src/main/java/com/betrybe/agrix/AgrixApplication.java e inicie a aplicação.
 
+# Credenciais para manipular
+admin: admin@admin.com / secret_admin
+user: user@user.com / secret_user
+
 ⚠️**Atenção:** A aplicação usa por padrão a porta 3000 para frontend e 3001 para backend
 
 Agora é só abrir o navegador e colocar o endereço http://localhost:3000/
