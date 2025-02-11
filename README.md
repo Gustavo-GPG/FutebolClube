@@ -101,7 +101,7 @@ Com isso, você pode acompanhar o status da aplicação e identificar possíveis
 
 Para iniciar a aplicação navegue para a pasta src/main/java/com/betrybe/agrix/AgrixApplication.java e inicie a aplicação.
 
-# Credenciais para manipular
+# Credenciais para aplicação
 admin: admin@admin.com / secret_admin
 user: user@user.com / secret_user
 
